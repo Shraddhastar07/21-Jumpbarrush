@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B17D46F22143CD20028E6DA /* Exhibitot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B17D46E22143CD20028E6DA /* Exhibitot.storyboard */; };
+		2B17D47222143D110028E6DA /* ExhibitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B17D47122143D110028E6DA /* ExhibitorViewController.m */; };
 		2B4EA2C922143BDC006033E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EA2C822143BDC006033E5 /* AppDelegate.m */; };
 		2B4EA2CC22143BDC006033E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EA2CB22143BDC006033E5 /* ViewController.m */; };
 		2B4EA2CF22143BDC006033E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EA2CD22143BDC006033E5 /* Main.storyboard */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B17D46E22143CD20028E6DA /* Exhibitot.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exhibitot.storyboard; sourceTree = "<group>"; };
+		2B17D47022143D110028E6DA /* ExhibitorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExhibitorViewController.h; sourceTree = "<group>"; };
+		2B17D47122143D110028E6DA /* ExhibitorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExhibitorViewController.m; sourceTree = "<group>"; };
 		2B4EA2C422143BDC006033E5 /* tewntyoneplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tewntyoneplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4EA2C722143BDC006033E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B4EA2C822143BDC006033E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +118,9 @@
 				2B4EA2D822143BDE006033E5 /* Info.plist */,
 				2B4EA2D922143BDE006033E5 /* main.m */,
 				2B4EA2D022143BDC006033E5 /* tewntyoneplus.xcdatamodeld */,
+				2B17D46E22143CD20028E6DA /* Exhibitot.storyboard */,
+				2B17D47022143D110028E6DA /* ExhibitorViewController.h */,
+				2B17D47122143D110028E6DA /* ExhibitorViewController.m */,
 			);
 			path = tewntyoneplus;
 			sourceTree = "<group>";
@@ -241,6 +249,7 @@
 				2B4EA2D722143BDE006033E5 /* LaunchScreen.storyboard in Resources */,
 				2B4EA2D422143BDE006033E5 /* Assets.xcassets in Resources */,
 				2B4EA2CF22143BDC006033E5 /* Main.storyboard in Resources */,
+				2B17D46F22143CD20028E6DA /* Exhibitot.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B17D47222143D110028E6DA /* ExhibitorViewController.m in Sources */,
 				2B4EA2CC22143BDC006033E5 /* ViewController.m in Sources */,
 				2B4EA2D222143BDC006033E5 /* tewntyoneplus.xcdatamodeld in Sources */,
 				2B4EA2DA22143BDE006033E5 /* main.m in Sources */,
